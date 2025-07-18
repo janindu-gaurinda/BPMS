@@ -113,7 +113,8 @@
 
                 <div style='display: flex; justify-content: space-between'>
                     <h2><b>All Passenger Details</b></h2>
-                    <a href='Report 2025-07-14.pdf' class='btn btn-primary' target="_blank">Download All Passenger PDF</a>
+                    <a href='Report 2025-07-14.pdf' class='btn btn-primary' target="_blank">Download All Passenger
+                        PDF</a>
                 </div><br>
 
                 <form method="POST" action="">
@@ -196,22 +197,16 @@
                                         <i class="bi bi-pencil-square"></i>
                                     </a>
 
-                                    <form method="post" action="" onsubmit="return confirmAction()" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <input type="hidden" name="link" value="">
-                                        <button type="submit" class="btn btn-danger btn-sm me-2"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                            <i class="bi bi-trash-fill"></i>
-                                        </button>
-                                    </form>
+                                    <a href="" class="btn btn-danger btn-sm me-2" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Delete" onclick="return confirmAction();">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </a>
 
-                                    <form method="post" action="view_edit_history.html" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="update history">
-                                            <i class="bi bi-clock-history"></i>
-                                        </button>
-                                    </form>
+                                    <a href="view_edit_history.html" class="btn btn-primary btn-sm"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Update history">
+                                        <i class="bi bi-clock-history"></i>
+                                    </a>
+
 
                                 </div>
                             </td>
@@ -261,22 +256,16 @@
                                         <i class="bi bi-pencil-square"></i>
                                     </a>
 
-                                    <form method="post" action="" onsubmit="return confirmAction()" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <input type="hidden" name="link" value="">
-                                        <button type="submit" class="btn btn-danger btn-sm me-2"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                            <i class="bi bi-trash-fill"></i>
-                                        </button>
-                                    </form>
+                                    <a href="" class="btn btn-danger btn-sm me-2" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Delete" onclick="return confirmAction();">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </a>
 
-                                    <form method="post" action="view_edit_history.html" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="update history">
-                                            <i class="bi bi-clock-history"></i>
-                                        </button>
-                                    </form>
+                                    <a href="view_edit_history.html" class="btn btn-primary btn-sm"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Update history">
+                                        <i class="bi bi-clock-history"></i>
+                                    </a>
+
 
                                 </div>
                             </td>
@@ -326,22 +315,16 @@
                                         <i class="bi bi-pencil-square"></i>
                                     </a>
 
-                                    <form method="post" action="" onsubmit="return confirmAction()" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <input type="hidden" name="link" value="">
-                                        <button type="submit" class="btn btn-danger btn-sm me-2"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                            <i class="bi bi-trash-fill"></i>
-                                        </button>
-                                    </form>
+                                    <a href="" class="btn btn-danger btn-sm me-2" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Delete" onclick="return confirmAction();">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </a>
 
-                                    <form method="post" action="view_edit_history.html" class="mb-0">
-                                        <input type="hidden" name="id" value="">
-                                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="update history">
-                                            <i class="bi bi-clock-history"></i>
-                                        </button>
-                                    </form>
+                                    <a href="view_edit_history.html" class="btn btn-primary btn-sm"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Update history">
+                                        <i class="bi bi-clock-history"></i>
+                                    </a>
+
 
                                 </div>
                             </td>
@@ -445,6 +428,8 @@
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
+    <!-- Your custom JS -->
+    <script src="boot/coustom.js"></script>
     <!-- Your custom JS -->
     <script src="boot/coustom.js"></script>
 
